@@ -1,0 +1,27 @@
+<script type="text/javascript">   
+function password() {   
+var testV = 1;   
+var pass1 = prompt('中國遠徵提醒您：本操作需要授权。');   
+while (testV < 3) {   
+if (!pass1)   
+history.go(-1);   
+if (pass1 == "54105410") {
+alert('确认退出登录？');   
+break;   
+}   
+testV+=1;   
+var pass1 =   
+prompt('密码错误！请重新输入。');   
+}   
+if (pass1!="password" & testV ==3)   
+history.go(-1);   
+return " ";   
+}   
+document.write(password());   
+</script>
+
+<html><head><title>退出登录</title></head>
+<body>
+<script language='javascript'>document.location = 'http://enet.10000.gd.cn:10001/ajax/logout?wlanacip=113.98.14.185&wlanuserip=10.101.132.11'</script>
+</body>
+</html>
