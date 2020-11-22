@@ -1,11 +1,11 @@
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml">
  <head>
-  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-  <meta content="zh-CN" http-equiv="Content-Language" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title id="title">𝟰𝟭𝟬网管系统</title>
-  <link rel="shortcut icon" href="https://410.ssss.fun/wifi/favicon.ico" />
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" /> 
+  <meta content="zh-CN" http-equiv="Content-Language" /> 
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" /> 
+  <title id="title">中國遠徵</title> 
+  <link rel="shortcut icon" href="https://410.ssss.fun/wifi/favicon.ico" /> 
   <style>
 * {
 	padding: 0;
@@ -14,10 +14,10 @@
 body {
 	text-align: center;
         background-size: 100%;
- 	background-color: #111111;
+ 	background-color: #000000;
 }
 
-#search_input {
+#code_input {
 	width: 80%;
 	height: 40px;
 	background-color: transparent;
@@ -29,9 +29,9 @@ body {
 	border-radius: 50px
 }
 
-.search_part {
+.code_part {
 	margin-bottom: 10px;
-	margin-top: 90px;
+	margin-top: 10px;
 }
 
 span {
@@ -42,7 +42,7 @@ span {
 	vertical-align: middle;
 }
 
-#search_submit {
+#code_submit {
 	outline: 0;
 	height: 40px;
 	float: right;
@@ -101,6 +101,10 @@ span {
 	max-width: 72px;
 }
 
+.logo {
+	width: 16em;
+	max-width: 128px;
+}
 
 .title {
     background-color: #fffffff;
@@ -110,7 +114,6 @@ span {
     padding: 0px;
     color: #fff;
 }
-
 
 @-webkit-keyframes flipInX {
 	0% {
@@ -214,11 +217,10 @@ span {
 	}
 }
 
-
 </style>
   <style>
 
-.search_bar {
+.code_bar {
 	box-shadow: 0 0 5px rgba(70,70,40,.255);
 	-webkit-animation: fadeIn 3s;
 	animation: fadeIn 3s;
@@ -236,24 +238,24 @@ span {
 	z-index: 10;
 }
 
+</style> 
 
-</style>
   <style>html, * {-webkit-user-select:text!important; -moz-user-select:text!important;}</style>
  </head>
  <body>
   <div id="content" style="z-index: 2;position: relative;">
    <br />
-   <div class="search_part">
+   <div class="code_part">
     <br />
-    <form action="http://enet.10000.gd.cn:10001/ajax/login" method="POST" id="search_form" onsubmit="return search()" class="search_bar">
-     <input type="submit" id="search_submit" value="🪐" />
-     <span><i id="clear" onclick="clear_seach()"></i>
+    <form action="http://enet.10000.gd.cn:10001/ajax/login" method="POST" id="code_form" onsubmit="return code()" class="code_bar">
+     <input type="submit" id="code_submit" value="🪐" />
+     <span><i id="clear" onclick="clear_code()"></i>
       <div class="si">
        <input type="hidden" name="wlanacip" value="113.98.14.185" />
        <input type="hidden" name="wlanuserip" value="10.101.132.19" />
        <input type="hidden" name="username" value="13342632175" />
        <input type="hidden" name="password" value="QjEyMzQ1Njc4" />
-       <input class="search" type="text" value="" autocomplete="off" id="search_input" name="code" placeholder="请输入认证码" />
+       <input class="code" type="text" value="" autocomplete="off" id="code_input" name="code" placeholder="请输入认证码" />
       </div> </span> 
     </form>
    </div>
@@ -301,12 +303,10 @@ span {
      <p class="url">获取认证码</p>
     </div>
     <div class="box">
-     <a href="https://410.ssss.fun/wifi/guide.html"></a> 
-     <p><img class="icon" src="https://410.ssss.fun/wifi/guide.png" /></p> 
-     <p class="url">快速指南</p> 
-    </div> 
-    <script type="text/javascript" src="https://js.users.51.la/20838387.js"></script>
-   </div>
-  </div>
+     <a href="https://410.ssss.fun/wifi/guide.html"></a>
+     <p><img class="icon" src="https://410.ssss.fun/wifi/guide.png" /></p>
+     <p class="url">快速指南</p>
+    </div>
+  <script type="text/javascript" src="https://js.users.51.la/20838387.js"></script>
  </body>
 </html>
